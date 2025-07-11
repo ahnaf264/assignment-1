@@ -1,0 +1,268 @@
+/* fonts */
+
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+ 
+    }
+
+.raleway{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: normal;
+}
+
+
+header{
+    background-image: url('../media/Assets/Hero-bg.png');
+}
+
+
+
+/* haeding styles */
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px 160px 150px;
+
+    
+}
+nav a button{
+    height: 48px;
+    width: 132px;
+ 
+}
+nav h3{
+    font-size: 34px;
+    color: #4E47FF;
+    
+   
+}
+
+/* shared items */
+
+.text-center{
+    align-items: center;
+}
+
+.purple-button{
+    color: white;
+    background-color: #4E47FF;
+    
+    border: none;
+    border-radius: 10px;
+    
+}
+    .purple-button2{
+         color: white;
+    background-color: #4E47FF;
+    
+    border: none;
+    width: 174px;
+    height: 48px;
+    margin: 37px 633px 200px 633px ;
+    border-radius: 10px;
+
+    }
+    .purple-button3{
+         color: white;
+    background-color: #4E47FF;
+    
+    border: none;
+    border-radius: 10px;
+    width: 229px;
+    height: 48px;
+        
+
+    }
+
+    .focus-button{ color: white;
+    background-color: #4E47FF;
+    
+    border: none;
+    width: 195px;
+    height: 48px;
+   margin-left: 450px;
+    border-radius: 10px;
+
+}
+
+
+/* banner content */
+.banner-description{
+     margin: 309px 267px 37px 267px ;
+   
+    font-size: 65px;
+    align-items: center;
+
+    
+    color: #252432;
+   margin: 0px 200px 0px 200px ;
+   justify-content: center;
+}
+
+
+/* main body */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+
+    margin: 0 auto;
+ 
+    height: 328px;
+    width: 1140px;
+    /* padding:127px 150px 80px 150px; */
+    padding: 100px 0px;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+}
+.action-description{
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(47, 36, 50, 0.5);
+    text-align: left;
+}
+.mini-image{
+    height: 328px ;
+    width: 403px;
+    border: none;
+    border-radius: 48px ;
+}
+
+/* user segment */
+body{
+    /* background-color: rgba(214, 221, 237, 1); */
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+    
+
+}
+main section {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.users{
+    background-color:rgba(255, 71, 220, 0.1);
+    padding: 50px 142px ;
+    
+    border-radius: 10px;
+    justify-content: center;   
+
+}
+.users-sum{
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+
+    
+}
+.total-users{
+    justify-content: space-between;
+    
+    
+}
+.center{
+   
+   font-size: 38px;
+   font-weight: bold;
+   justify-content: center;
+   align-items: center;
+   margin-top: auto;
+   margin-left: 100px;
+}
+.user-title{
+    color: #4E47FF;
+    font-size: 80px ;
+    
+}
+.user-description{
+    color:rgba(0, 0, 0, 0.5) ;
+    font-size: 20px;
+}
+.reaction
+{
+    margin: 0px auto;
+}
+
+
+/* review section */
+.review{
+    display: flex;
+    gap: 20px;
+   
+  
+
+}
+.review-title1{
+    font-size: 42px;
+    font-weight: bold;
+    margin-left: 400px;
+}
+.review-units{
+      box-shadow: 0px 6px 50px 0px rgba(242, 237, 237, 1);
+    padding: 20px;
+    border-radius: 15px;
+    
+    
+}
+.photo{
+    object-fit: cover;
+    border-radius: 50%;
+}
+.review-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.review-description{
+    font-size: 16px;
+    font-weight: normal;
+}
+.review-name{
+    font-size: 16px;
+    color: #757575;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* focus part */
+
+.focus{
+    margin: o auto;
+    
+}
+.focus-title{
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    margin: 0px 300px 20px 300px ;
+
+}
+.focus-description{
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 340px;
+    font-size: 16px;
+
+
+}
+.focus-photo{
+    height: 365px;
+    width: 840px;
+    border-radius: 48px;
+    margin: 20px 150px 71px 150px;
+}
+
+
