@@ -50,6 +50,7 @@ nav h3{
 
 .text-center{
     align-items: center;
+    
 }
 
 .purple-button{
@@ -58,7 +59,12 @@ nav h3{
     
     border: none;
     border-radius: 10px;
+
     
+}
+.purple-button:hover{
+    background: white;
+    color: #000000;
 }
     .purple-button2{
          color: white;
@@ -71,6 +77,10 @@ nav h3{
     border-radius: 10px;
 
     }
+    .purple-button2:hover{
+        background: white;
+    color: #000000;
+    }
     .purple-button3{
          color: white;
     background-color: #4E47FF;
@@ -82,6 +92,10 @@ nav h3{
         
 
     }
+    .purple-button3:hover{
+        background: white;
+    color: #000000;
+    }
 
     .focus-button{ color: white;
     background-color: #4E47FF;
@@ -92,12 +106,36 @@ nav h3{
    margin-left: 450px;
     border-radius: 10px;
 
+   
+
 }
+
+.focus-button:hover{
+    background: white;
+    color: #000000;
+}
+ .form-button{
+    color: white;
+    background-color: #4E47FF;
+    
+    border: none;
+    width: 195px;
+    height: 48px;
+    border-radius: 10px;
+
+
+        
+    }
+    .focus-button:hover{
+        background: white;
+    color: #000000;
+    }
 
 
 /* banner content */
 .banner-description{
-     margin: 309px 267px 37px 267px ;
+     margin: auto 280px ;
+     
    
     font-size: 65px;
     align-items: center;
@@ -121,6 +159,10 @@ nav h3{
     width: 1140px;
     /* padding:127px 150px 80px 150px; */
     padding: 100px 0px;
+    background-color: white;
+    margin-top: 100px;
+    border-radius: 20px;
+    border: none;
 }
 .action-title{
     font-size: 42px;
@@ -143,10 +185,12 @@ nav h3{
 /* user segment */
 body{
     /* background-color: rgba(214, 221, 237, 1); */
+      background-color: #D6DDED ;
 }
 main{
     max-width: 1140px;
     margin: 0 auto;
+  
     
 
 }
@@ -216,6 +260,7 @@ main section {
       box-shadow: 0px 6px 50px 0px rgba(242, 237, 237, 1);
     padding: 20px;
     border-radius: 15px;
+    background-color: white;
     
     
 }
@@ -242,6 +287,9 @@ main section {
 
 .focus{
     margin: o auto;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
     
 }
 .focus-title{
@@ -265,4 +313,80 @@ main section {
     margin: 20px 150px 71px 150px;
 }
 
+
+/* form section */
+
+.form{
+    display: flex;
+    gap: 100px;
+    
+    align-items: center;
+  
+
+}
+
+.form-title{
+    font-size: 97px;
+    font-weight: bold;
+}
+.form-section{
+    display: block;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+main section input[type="email"],[type="text"], main textarea{
+
+    height: 70px;
+    border-radius: 10px;
+    background-color: white;
+    width: 100%;
+    border: none;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+
+}
+
+/* footer shuru */
+
+footer{
+    background-color: white;
+    height: 428px;
+    width: 1440px;
+   
+}
+
+.footer-logo{
+    color: #4E47FF;
+    font-size: 100px;
+    font-weight: bolder;
+    margin: 104px 550px 50px 550px;
+    
+
+}
+.footer-description{
+    color: rgba(137, 135, 161, 1);
+    margin: 0 455px ;
+
+}
+.footer-end{
+    display: flex;
+    gap: 30px;
+    font-weight: lighter;
+    font-size: 16px;
+    margin: 50px 520px 100px 520px ;
+    
+    
+}
+
+.anchor{
+    text-decoration: none;
+    color: #252432;
+}
+
+.form-button:hover{
+    background: white;
+    color: black;
+}
 
