@@ -1,5 +1,5 @@
 
-/* fonts */
+/* fonts and universal styles*/
 
 body{
     margin: 0;
@@ -63,6 +63,7 @@ nav{
 .btn:hover{
     background-color: #ffffff;
     color: #30B868;
+    border: 2px solid #30B868;
 }
 .green{
     color: #30B868;
@@ -87,6 +88,7 @@ nav{
 }
 .work-btn:hover{
     background-color: #30b869c3;
+    border: none;
    
 }
 
@@ -122,7 +124,7 @@ nav{
     padding:8px 12px ;
 
 }
-.hero-paragrapgh{
+.hero-paragraph{
     font-size: 18px;
     color: #FFFFFF;
     margin: 0 auto;
@@ -182,11 +184,7 @@ nav{
     margin: 0 auto;
    margin-top: 35px;
 }
-/* .card img{
-    border: 1px solid #E0E0E0;
-    background-color: blue;
-    margin-top: 35px;
- } */
+
  .card h4{
     font-size: 24px;
     font-weight: 600;
@@ -262,10 +260,7 @@ nav{
         text-align: center;
         
     }
-    /* .footer-content{
-       display: flex; */
-       
-    /* } */
+    
 
     footer section{
         display: flex;
