@@ -21,6 +21,8 @@ nav{
     justify-content: space-evenly;
     background-color: #FFFFFF;
     align-items: center;
+    max-width: 1360px;
+    margin: 0 auto;
 }
 .nav-list{
     display: flex;
@@ -58,6 +60,10 @@ nav{
 
 
 }
+.btn:hover{
+    background-color: #ffffff;
+    color: #30B868;
+}
 .green{
     color: #30B868;
 }
@@ -77,6 +83,10 @@ nav{
     font-weight: 600; 
     cursor: pointer;
     margin-left: 16px;
+   
+}
+.work-btn:hover{
+    background-color: #30b869c3;
    
 }
 
@@ -145,6 +155,7 @@ nav{
     gap: 24px;
     justify-content: center;
     margin: 0 auto;
+    max-width: 1360px;
     
     
 
@@ -194,11 +205,12 @@ nav{
  .brain{
     display: flex;
    gap: 60px;
-   justify-content: center;
+   justify-content: space-between;
    align-items: center;
    
     margin: 0 auto;
     padding: 120px;
+    max-width: 1360px;
  }
  .brain-title{
     font-size: 48px;
@@ -213,3 +225,58 @@ nav{
     margin-bottom:0;
  }
  
+
+
+
+ /* think section */
+ .think{
+    padding: 120px;
+    padding-top: 0px;
+ }
+ .think-container{
+    text-align: center;
+    
+    padding: 80px 40px;
+    background-color: #F7F6F2;
+    max-width: 1360px;  
+    margin: 0 auto;
+    border-radius: 12px;
+ }
+ .think-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+  
+ }
+ .think-container p{
+    margin:  0;
+ }
+
+
+ /* footer starts */
+
+    footer{
+        background-color: #001931;
+        padding: 120px;
+        padding-bottom: 30px;
+        text-align: center;
+        
+    }
+    /* .footer-content{
+       display: flex; */
+       
+    /* } */
+
+    footer section{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 80px;
+    }
+    .footer-logo{
+        display: flex;
+        gap: 16px;
+        margin-top: 16px;
+    }
+
+    
