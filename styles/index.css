@@ -64,7 +64,9 @@ nav{
 .white{
     color: #FFFFFF;
 }
-
+.text-color{
+    color: #627382;
+}
 .work-btn{
     background-color: #30b86900;
     border: 1px solid #FFFFFF;
@@ -185,3 +187,29 @@ nav{
     margin-bottom: 20px;
     text-align: center;
  }
+
+
+
+ /* brain section start */
+ .brain{
+    display: flex;
+   gap: 60px;
+   justify-content: center;
+   align-items: center;
+   
+    margin: 0 auto;
+    padding: 120px;
+ }
+ .brain-title{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+ }
+ .tick-list{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    margin-bottom:0;
+ }
+ 
